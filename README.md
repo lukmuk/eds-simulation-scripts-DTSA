@@ -17,7 +17,7 @@ The source code for [DTSA-II](https://github.com/usnistgov/DTSA-II) and the [EPQ
 
 Simulation of a 70 nm thick TEM sample of GdBa2Cu3O7 at 200 keV with and without added 12 mol% BaHfO3. Hf-L lines overlap with Cu-K lines and create shoulders on the strong Cu peak. A Hf-M line peak is visible at around 2 keV. No detector window was used here. 
 
-![Example simulation for 12 mol% BaHfO3 doping into GdBCO](docs\images\img00.png)
+![Example simulation for 12 mol% BaHfO3 doping into GdBCO](docs/images/img00.png)
 
 This example is related to this [paper](https://pubs.rsc.org/en/content/articlelanding/2023/ma/d3ma00447c) (see Fig. [S5](https://www.rsc.org/suppdata/d3/ma/d3ma00447c/d3ma00447c1.pdf) for an experimental example of the Hf-L peak overlap with Cu-K).
 
@@ -44,9 +44,9 @@ Alternatively, this can also be done directly in the scripts (`material`class).
 1. Download/clone this repository or the desired script template (`.py` file).
 2. **Recommended:** For each simulation, make a copy of the script in a separate folder. By default, the simulation results are stored in this folder.
 3. Open the script in a text editor and adjust the user parameters.
-4. Run the simulation by opening the script in DTSA.
+4. Run the simulation by opening the script in DTSA.\
 ![Screenshot of script window and DTSA](docs/images/img01.png)
-5. Different output files are generated and saved.\
+6. Different output files are generated and saved.\
 `msa` files contain the spectrum data and can typically imported in any EDS software.
 
 ## Available Scripts
