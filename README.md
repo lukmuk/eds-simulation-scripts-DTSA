@@ -5,7 +5,7 @@ This repository contains Jython script templates for [NIST DTSA-II](https://www.
 
 DTSA-II is maintained by Nicholas Ritchie. Please cite relevant papers if the simulations help your research (e.g., https://doi.org/10.1017/S1431927609990407).
 
-The scripts can help in getting a better understanding of explore EDS physics (generation and detection) and aid in planning experiments:
+The scripts can help in getting a better understanding of EDS physics (generation and detection) and aid in planning experiments:
 * Check for **critical EDS peak overlaps**
 * Check feasibility of **trace-element detection** (for a given experimental conditions)
 * Check effect of different **primary beam energies** and **doses**
