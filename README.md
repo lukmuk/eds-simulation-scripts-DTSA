@@ -5,19 +5,19 @@ This repository contains Jython script templates for [NIST DTSA-II](https://www.
 
 DTSA-II is maintained by Nicholas Ritchie. Please cite relevant papers if the simulations help your research (e.g., https://doi.org/10.1017/S1431927609990407).
 
-The scripts can help in getting a better understanding of explore EDS physics (generation and detection) and aid in planning experiments:
+The scripts can help in getting a better understanding of EDS physics (generation and detection) and aid in planning experiments:
 * Check for **critical EDS peak overlaps**
 * Check feasibility of **trace-element detection** (for a given experimental conditions)
 * Check effect of different **primary beam energies** and **doses**
 * Check effect of a **detector window** on low-energy x-ray absorption
 
-The source code for [DTSA-II](https://github.com/usnistgov/DTSA-II) and the [EPQ Library](https://github.com/usnistgov/EPQ/tree/master/src/gov/nist/microanalysis) are available through GitHub.
+The source codes for [DTSA-II](https://github.com/usnistgov/DTSA-II) and the [EPQ Library](https://github.com/usnistgov/EPQ/tree/master/src/gov/nist/microanalysis) are available through GitHub.
 
 ## Example
 
 Simulation of a 70 nm thick TEM sample of GdBa2Cu3O7 at 200 keV with and without added 12 mol% BaHfO3. Hf-L lines overlap with Cu-K lines and create shoulders on the strong Cu peak. A Hf-M line peak is visible at around 2 keV. No detector window was used here. 
 
-![Example simulation for 12 mol% BaHfO3 doping into GdBCO](docs\images\img00.png)
+![Example simulation for 12 mol% BaHfO3 doping into GdBCO](docs/images/img00.png)
 
 This example is related to this [paper](https://pubs.rsc.org/en/content/articlelanding/2023/ma/d3ma00447c) (see Fig. [S5](https://www.rsc.org/suppdata/d3/ma/d3ma00447c/d3ma00447c1.pdf) for an experimental example of the Hf-L peak overlap with Cu-K).
 
@@ -44,10 +44,10 @@ Alternatively, this can also be done directly in the scripts (`material`class).
 1. Download/clone this repository or the desired script template (`.py` file).
 2. **Recommended:** For each simulation, make a copy of the script in a separate folder. By default, the simulation results are stored in this folder.
 3. Open the script in a text editor and adjust the user parameters.
-4. Run the simulation by opening the script in DTSA.
+4. Run the simulation by opening the script in DTSA.\
 ![Screenshot of script window and DTSA](docs/images/img01.png)
-5. Different output files are generated and saved.\
-`msa` files contain the spectrum data and can typically imported in any EDS software.
+6. Different output files are generated and saved.\
+`msa` files contain the spectrum data and can be typically imported in any EDS software.
 
 ## Available Scripts
 
@@ -63,7 +63,7 @@ Simulate different total electron doses.
 
 Scripts related to **doping/trace concentrations** (Please **double-check** the generated sample compositions/stoichiometries given in the DTSA console!):
 * `TEM_Homogeneous_Series_ElementDopingStoichiometry`\
-Simulate different doping levels of **an element** into the sample. Doping level given as **stoichiometry** ("number of atoms").
+Simulate different doping levels of **an element** into the sample. Doping level given as **stoichiometry** ("number of dopant atoms added to the sample"; e.g. a doping value of "1.0" atoms of S in ZnO will lead to "ZnOS" or 33.3 at% S).
 * `TEM_Homogeneous_Series_ElementDopingWeightPerc`\
 Simulate different doping levels of **an element** into the sample. Doping level given as **weight%**.
 * `TEM_Homogeneous_Series_ElementDopingAtomicPerc`\
