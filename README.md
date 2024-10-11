@@ -11,7 +11,7 @@ The scripts can help in getting a better understanding of EDS physics (generatio
 * Check effect of different **primary beam energies** and **doses**
 * Check effect of a **detector window** on low-energy x-ray absorption
 
-The source code for [DTSA-II](https://github.com/usnistgov/DTSA-II) and the [EPQ Library](https://github.com/usnistgov/EPQ/tree/master/src/gov/nist/microanalysis) are available through GitHub.
+The source codes for [DTSA-II](https://github.com/usnistgov/DTSA-II) and the [EPQ Library](https://github.com/usnistgov/EPQ/tree/master/src/gov/nist/microanalysis) are available through GitHub.
 
 ## Example
 
@@ -47,7 +47,7 @@ Alternatively, this can also be done directly in the scripts (`material`class).
 4. Run the simulation by opening the script in DTSA.\
 ![Screenshot of script window and DTSA](docs/images/img01.png)
 6. Different output files are generated and saved.\
-`msa` files contain the spectrum data and can typically imported in any EDS software.
+`msa` files contain the spectrum data and can be typically imported in any EDS software.
 
 ## Available Scripts
 
@@ -63,7 +63,7 @@ Simulate different total electron doses.
 
 Scripts related to **doping/trace concentrations** (Please **double-check** the generated sample compositions/stoichiometries given in the DTSA console!):
 * `TEM_Homogeneous_Series_ElementDopingStoichiometry`\
-Simulate different doping levels of **an element** into the sample. Doping level given as **stoichiometry** ("number of atoms").
+Simulate different doping levels of **an element** into the sample. Doping level given as **stoichiometry** ("number of dopant atoms added to the sample"; e.g. a doping value of "1.0" atoms of S in ZnO will lead to "ZnOS" or 33.3 at% S).
 * `TEM_Homogeneous_Series_ElementDopingWeightPerc`\
 Simulate different doping levels of **an element** into the sample. Doping level given as **weight%**.
 * `TEM_Homogeneous_Series_ElementDopingAtomicPerc`\
