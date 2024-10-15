@@ -1,0 +1,111 @@
+<gov.nist.microanalysis.EPQLibrary.Detector.EDSDetector id="1">
+  <mDetProperties id="2">
+    <mName>SuperX-SDD</mName>
+    <mProperties id="3" serialization="custom">
+      <SpectrumProperties>
+        <null/>
+        <int>18</int>
+        <string>Aluminum layer thickness</string>
+        <double>10.0</double>
+        <string>Azimuthal angle</string>
+        <double>45.0</double>
+        <string>Dead layer</string>
+        <double>0.0</double>
+        <string>Detector GUID</string>
+        <string>000ece9f-2f85-3d6c-a92b-cdfd9adda9a4</string>
+        <string>Detector area</string>
+        <double>120.0</double>
+        <string>Detector orientation</string>
+        <double-array id="4">
+          <double>-0.6556179909708572</double>
+          <double>-0.655617990970857</double>
+          <double>0.374606593415912</double>
+        </double-array>
+        <string>Detector position</string>
+        <double-array id="5">
+          <double>7.867415891650285</double>
+          <double>7.8674158916502845</double>
+          <double>-2.4952791209909444</double>
+        </double-array>
+        <string>Detector thickness</string>
+        <double>10.0</double>
+        <string>Detector type</string>
+        <string>Silicon Drift Detector</string>
+        <string>Detector window</string>
+        <gov.nist.microanalysis.EPQLibrary.Detector.XRayWindow3 id="6">
+          <mName>Custom Table</mName>
+          <mProperties id="7" serialization="custom">
+            <SpectrumProperties>
+              <null/>
+              <int>1</int>
+              <string>Window type</string>
+              <string>Ultra-thin window</string>
+            </SpectrumProperties>
+          </mProperties>
+          <mResourceName>custom.csv</mResourceName>
+        </gov.nist.microanalysis.EPQLibrary.Detector.XRayWindow3>
+        <string>Elevation</string>
+        <double>22.0</double>
+        <string>Gold layer thickness</string>
+        <double>0.0</double>
+        <string>Nickel layer thickness</string>
+        <double>0.0</double>
+        <string>Optimal working distance</string>
+        <double>2.0</double>
+        <string>Solid angle</string>
+        <double>0.8333333333333334</double>
+        <string>Specimen-to-detector distance</string>
+        <double>12.0</double>
+        <string>Support grid open area</string>
+        <double>100.0</double>
+        <string>Window type</string>
+        <string>Ultra-thin window</string>
+      </SpectrumProperties>
+    </mProperties>
+    <mChannelCount>4096</mChannelCount>
+  </mDetProperties>
+  <mCalibration class="gov.nist.microanalysis.EPQLibrary.Detector.SDDCalibration" id="8">
+    <mActiveDate id="9">1970-01-01 00:00:00.0 UTC</mActiveDate>
+    <mProperties id="10" serialization="custom">
+      <SpectrumProperties>
+        <null/>
+        <int>5</int>
+        <string>Calibration GUID</string>
+        <string>ef94301d-d75e-6913-1835-b298da180dfd</string>
+        <string>Energy offset</string>
+        <double>0.0</double>
+        <string>Energy scale</string>
+        <double>10.0</double>
+        <string>Resolution</string>
+        <double>130.0</double>
+        <string>Resolution measurement energy</string>
+        <double>5898.7</double>
+      </SpectrumProperties>
+    </mProperties>
+    <mContamination class="XRayWindow" id="11">
+      <mProperties id="12" serialization="custom">
+        <SpectrumProperties>
+          <null/>
+          <int>1</int>
+          <string>Support grid open area</string>
+          <double>100.0</double>
+        </SpectrumProperties>
+      </mProperties>
+      <mLayers id="13"/>
+      <mOpenFraction>1.0</mOpenFraction>
+      <mLowEnergyCorrection>1.0</mLowEnergyCorrection>
+      <mCoverage>1.0</mCoverage>
+    </mContamination>
+    <mLineshape class="BasicSiLiLineshape" id="14">
+      <mFWHMatMnKa>130.0</mFWHMatMnKa>
+    </mLineshape>
+    <mName>130.0 eV</mName>
+    <mFudgeFactor>1.0</mFudgeFactor>
+    <mFWHM>130.0</mFWHM>
+    <mFirstLElement>20</mFirstLElement>
+    <mFirstKElement>5</mFirstKElement>
+    <mFirstMElement>57</mFirstMElement>
+    <mFirstNElement defined-in="SiLiCalibration">95</mFirstNElement>
+    <mFirstNElement>95</mFirstNElement>
+  </mCalibration>
+</gov.nist.microanalysis.EPQLibrary.Detector.EDSDetector>
