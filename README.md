@@ -35,7 +35,7 @@ NIST DTSA-II comes installed with a Jython console. The scripts are loaded and e
 
 1. Install NIST DTSA-II and open it (see [here](https://www.cstl.nist.gov/div837/837.02/epq/dtsa2/index.html)).
 2. Define an instrument with an EDS detector in DTSA-II ([PDF](https://www.cstl.nist.gov/div837/837.02/epq/dtsa2/DTSA-II_Configuration.pdf)).\
-Simulations for different energy dispersion (e.g., 5/10/20 eV/channel), number of channels, detector window, etc. require the definition of multiple detectors. Call `listDetectors()` in the DTSA-II scripting window to get the detector names and IDs (`d...`)
+Simulations for different energy dispersion (e.g., 5/10/20 eV/channel), number of channels, detector window, etc. require the definition of multiple detectors. Call `listDetectors()` in the DTSA-II scripting window to get the detector names and IDs (`d...`). For the FEI/TFS TEM SuperX detector, have a look [here](https://github.com/lukmuk/eds-simulation-scripts-DTSA/tree/main/utils/FEI-TFS-SuperX-SDD-Efficiency).
 3. **Optional:** Pre-define your sample material in DTSA-II ([Video](https://www.youtube.com/watch?v=ZWUHM2SEyMU)).\
 Alternatively, this can also be done directly in the scripts (`material`class).
 
